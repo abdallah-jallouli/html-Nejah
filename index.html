@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML</title>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <header>
       <nav>
         <!-- this is a menu for our page -->
-        <ol class="class" id="id">
+        <ul class="class" id="id">
           <li class="list">
             <a href="#home">
                 Home
@@ -21,10 +22,9 @@
           <li class="list">
             <a href="#contact">
                 Contact
-                
             </a>
           </li>
-        </ol>
+        </ul>
       </nav>
     </header>
     <main>
@@ -33,7 +33,8 @@
       </div>
       <div class="Home">
         <h2 id="home">Home Part</h2>
-        <iframe
+        <div class="Inhome"> 
+          <iframe
           width="424"
           height="238"
           src="https://www.youtube.com/embed/olJOZp57FWM"
@@ -42,8 +43,21 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
-        <br />
-        <img src="./media/image profil.jpg" alt="picture" />
+        <p>Description to The Video : Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illo magnam excepturi autem sequi suscipit esse impedit,
+           a voluptatum! Ullam exercitationem, excepturi culpa distinctio blanditiis impedit repellendus nihil ipsa deleniti.</p>
+        </div>
+        <div class="Inhome">
+          <img src="./media/image profil.jpg" alt="picture" />
+          <p >Description to The Image : Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illo magnam excepturi autem sequi suscipit esse impedit,
+            a voluptatum! Ullam exercitationem, excepturi culpa distinctio blanditiis impedit repellendus nihil ipsa deleniti.</p>
+        </div>
+        <div class="Inhome">
+          <img src="./media/css_image.jpg" alt="css_picture" />
+          <p >Description to The Image : Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illo magnam excepturi autem sequi suscipit esse impedit,
+            a voluptatum! Ullam exercitationem, excepturi culpa distinctio blanditiis impedit repellendus nihil ipsa deleniti.</p>
+        </div>
+        
+        
       </div>
       <div class="About">
         <h2 id="about">About Part</h2>
@@ -125,7 +139,6 @@
             <select >
                 <option value="">men</option>
                 <option value="">Women</option>
-
             </select>
         </form>
       </div>
